@@ -22,12 +22,26 @@
 }
 
 #modal .close_area {
-    display: inline;
-    float: right;
-    padding-right: 0px;
     cursor: pointer;
-    text-shadow: 1px 1px 2px gray;
-    color: white;
+    margin-left: 143px;
+}
+
+.modal_upper {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal_left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.modal_right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 416px;
+    margin-top: 40px;
 }
 
 .modal_title {
@@ -35,7 +49,41 @@
     font-size: 30px;
     font-weight: normal;
     color: #434343;
-    line-height: 1px;
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.modal_explain {
+    font-family: 'KoPubBatangM';
+    font-size: 18px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 34px;
+    margin-top: 28px;
+}
+
+.modal_recommend_btn_area{
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.modal_recommend_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 40px;
+  background-color: #434343;
+  color: #f8f8f3;
+  font-family: 'KoPubBatangM';
+  font-size: 17px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.modal_line{
+    background-color: #434343;
+    height: 1px;
+    opacity: 100%;
+    margin-top: 35px;
 }
