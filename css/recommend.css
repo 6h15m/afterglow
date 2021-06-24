@@ -10,7 +10,6 @@ section {
 }
 
 h1 {
-  font-family: 'KoPubBatangB';
   font-size: 26px;
   font-weight: normal;
   color: #434343;
@@ -19,7 +18,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'JejuMyeongjo';
   font-size: 15px;
   font-weight: normal;
   color: #434343;
@@ -28,7 +26,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'JejuMyeongjo';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -37,7 +34,6 @@ h3 {
 }
 
 h4 {
-  font-family: 'JejuMyeongjo';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -47,7 +43,6 @@ h4 {
 }
 
 h5{
-  font-family: 'JejuMyeongjo';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -56,15 +51,7 @@ h5{
 }
 
 h6{
-  font-family: 'KoPubBatangM';
   font-size: 20px;
-  font-weight: normal;
-  color: #434343;
-}
-
-h7{
-  font-family: 'KoPubBatangM';
-  font-size: 18px;
   font-weight: normal;
   color: #434343;
 }
@@ -119,7 +106,6 @@ h7{
 }
 
 .brand {
-  font-family: 'KoPubBatangM';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -128,7 +114,6 @@ h7{
 }
 
 .name {
-  font-family: 'KoPubBatangB';
   font-size: 27px;
   font-weight: normal;
   color: #434343;
@@ -146,7 +131,6 @@ h7{
 }
 
 .temp {
-  font-family: 'KoPubBatangB';
   font-size: 33px;
   font-weight: normal;
   color: #434343;
@@ -154,7 +138,6 @@ h7{
 }
 
 .preci {
-  font-family: 'KoPubBatangB';
   font-size: 33px;
   font-weight: normal;
   color: #434343;
@@ -218,7 +201,6 @@ h7{
 }
 
 .magazine_title{
-  font-family: 'KoPubBatangB';
   font-size: 20px;
   color: #434343;
   line-height: 40px;
@@ -228,7 +210,6 @@ h7{
 .magazine_date{
   display: flex;
   align-self: flex-end;
-  font-family: 'KoPubBatangM';
   font-size: 16px;
   font-weight: normal;
   color: #434343;
@@ -238,7 +219,6 @@ h7{
 
 .magazine_explain{
   display: flex;
-  font-family: 'KoPubBatangM';
   font-size: 16px;
   font-weight: normal;
   color: #434343;
@@ -281,7 +261,6 @@ h7{
 }
 
 .keyword{
-  font-family: 'KoPubBatangM';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -362,7 +341,6 @@ h7{
   height: 50px;
   background-color: #434343;
   color: #f8f8f3;
-  font-family: 'KoPubBatangB';
   font-size: 22px;
   font-weight: normal;
   margin-top: 32px;
@@ -389,7 +367,6 @@ h7{
 }
 
 .recommend_nickname{
-  font-family: 'KoPubBatangM';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -405,7 +382,6 @@ h7{
 
 .recommend_title{
   display: flex;
-  font-family: 'JejuMyeongjo';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -414,7 +390,6 @@ h7{
 
 .recommend_explain{
   width: 620px;
-  font-family: 'JejuMyeongjo';
   font-size: 16px;
   font-weight: normal;
   color: #434343;
