@@ -21,6 +21,16 @@
     background: #F8F8F3;
 }
 
+#modal_mag_1 .modal_window_2 {
+    position: fixed;
+    top: 245px;
+    width: 1110px;
+    height: 700px;
+    padding: 0px;
+    border: 1px solid #434343;
+    background: #F8F8F3;
+}
+
 #modal .close_area {
     cursor: pointer;
     margin-left: 143px;

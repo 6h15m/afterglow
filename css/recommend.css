@@ -42,7 +42,7 @@ h4 {
   margin-right: 30px;
 }
 
-h5{
+h5 {
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -50,7 +50,7 @@ h5{
   cursor: pointer;
 }
 
-h6{
+h6 {
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -157,7 +157,7 @@ h6{
   height: 770px;
 }
 
-.magazine_content_container{
+.magazine_content_container {
   display: flex;
   flex-flow: row wrap;
   width: 780px;
@@ -168,7 +168,7 @@ h6{
   border-color: #434343;
 }
 
-.magazine_content{
+.magazine_content {
   display: flex;
   flex-direction: column;
   width: 390px;
@@ -176,38 +176,45 @@ h6{
   border-style: solid;
   border-width: 1px 0px 0px 1px;
   border-color: #434343;
+  overflow: hidden;
   cursor: pointer;
 }
 
-.magazine_preview{
+.magazine_preview {
   display: flex;
   width: 389px;
   height: 199px;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   border-color: #434343;
+  margin : 0 auto;
 }
 
-.magazine_textarea{
+.magazine_preview_img {
+  object-fit: cover;
+}
+
+.magazine_textarea {
   display: flex;
   flex-direction: column;
   margin-top: 26px;
 }
 
-.magazine_top_area{
+.magazine_top_area {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.magazine_title{
+.magazine_title {
   font-size: 20px;
   color: #434343;
   line-height: 40px;
   margin-left: 20px;
+  font-weight: 800;
 }
 
-.magazine_date{
+.magazine_date {
   display: flex;
   align-self: flex-end;
   font-size: 16px;
@@ -217,7 +224,7 @@ h6{
   margin-right: 36px;
 }
 
-.magazine_explain{
+.magazine_explain {
   display: flex;
   font-size: 16px;
   font-weight: normal;
@@ -243,7 +250,7 @@ h6{
   border-color: #434343;
 }
 
-.keyword_content_container{
+.keyword_content_container {
   display: flex;
   flex-direction: column;
   border-style: solid;
@@ -253,14 +260,14 @@ h6{
   padding-left: 30px;
 }
 
-.keywords{
+.keywords {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
   cursor: pointer;
 }
 
-.keyword{
+.keyword {
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -284,7 +291,7 @@ h6{
   border-color: #434343;
 }
 
-.recommend_container{
+.recommend_container {
   display: flex;
   flex-direction: column;
   border-style: solid;
@@ -292,13 +299,13 @@ h6{
   border-color: #434343;
 }
 
-.recommend_content_container{
+.recommend_content_container {
   display: flex;
   flex-direction: row;
   height: 488px;
 }
 
-.recommend_left_btn{
+.recommend_left_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,7 +315,7 @@ h6{
   border-color: #434343;
 }
 
-.recommend_right_btn{
+.recommend_right_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,7 +325,7 @@ h6{
   border-color: #434343;
 }
 
-.recommend_content{
+.recommend_content {
   display: flex;
   flex-direction: row;
   width: 1736px;
@@ -328,12 +335,12 @@ h6{
   margin-top: 60px;
 }
 
-.recommend_btn_area{
+.recommend_btn_area {
   display: flex;
   justify-content: center;
 }
 
-.recommend_btn{
+.recommend_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -347,7 +354,7 @@ h6{
   cursor: pointer;
 }
 
-.recommend{
+.recommend {
   display: flex;
   flex-direction: column;
   width: 700px;
@@ -358,7 +365,7 @@ h6{
   margin-right: 20px;
 }
 
-.recommend_nickname_area{
+.recommend_nickname_area {
   display: flex;
   flex-direction: row;
   align-self: flex-end;
@@ -366,21 +373,21 @@ h6{
   margin-right: 40px;
 }
 
-.recommend_nickname{
+.recommend_nickname {
   font-size: 18px;
   font-weight: normal;
   color: #434343;
   margin-right: 6px;
 }
 
-.recommend_products_area{
+.recommend_products_area {
   display: flex;
   height: 183px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.recommend_title{
+.recommend_title {
   display: flex;
   font-size: 20px;
   font-weight: normal;
@@ -388,7 +395,7 @@ h6{
   margin-left: 40px;
 }
 
-.recommend_explain{
+.recommend_explain {
   width: 620px;
   font-size: 16px;
   font-weight: normal;
