@@ -278,7 +278,8 @@ h6 {
 .ads_container {
   display: flex;
   flex-direction: column;
-  height: 405px;
+  height: 400px;
+  background-image: url("../img/banner_mini.png");
 }
 
 .btm_container {

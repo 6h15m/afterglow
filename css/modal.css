@@ -309,3 +309,75 @@ textarea:focus {
     background-color: #434343;
     cursor: pointer;
 }
+
+.modal_window_mag {
+    position: fixed;
+    top: 245px;
+    left: 405px;
+    width: 1110px;
+    height: 700px;
+    padding: 0px;
+    border: 1px solid #434343;
+    background: #F8F8F3;
+}
+
+.close_area3 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.close_area4 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.close_area5 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.close_area6 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.mag_title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.mag_explain {
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.mag_date {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 974px;
+}
+
+.mag_line {
+    line-height: 1px;
+    background-color: #434343;
+    opacity: 100%;
+    margin-top: 7px;
+}
+
+.mag_content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.mag {
+    width: 475px;
+    height: 441px;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: 20px;
+}
